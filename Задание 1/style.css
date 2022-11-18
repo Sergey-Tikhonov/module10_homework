@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.main-container {
+	text-align: center;
+	padding-top: 10em;
+}
+.main-container h1 {
+	font-size: 2em;
+	font-style: normal;
+	margin: 1em;
+	color: #0042c7a3;
+}
+
+
+.basic-button {
+	text-transform: uppercase;
+	font-size: 1em;
+	padding: 1.5em;
+	color: white;
+    border: none;
+	outline: 0;
+    border-radius: 0.17em;
+	box-shadow: 1px 1px 1px #333434;
+    overflow: hidden;
+    text-align: center;
+	cursor: pointer;
+}
+
+
+
+.basic-button.color-blue {
+	background-color: #0042c7a3;
+}
+
+.btn_icon {
+    width: 2em;
+    height: 2em;
+    font-size: 2em;
+}
+
+
+#icon_01 {
+	display: block;
+}
+
+#icon_02 {
+	display: none;
+}
